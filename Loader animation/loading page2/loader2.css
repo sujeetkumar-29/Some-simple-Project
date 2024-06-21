@@ -1,0 +1,56 @@
+* {
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    left: 200px;
+    /* justify-content: center;  */
+    align-items: center;
+    background-color: #498467;
+}
+
+ h1 {
+    position: relative;
+    top: -50px;
+    left:  300x;
+    justify-content: center;
+    color: rgba(0, 255, 68, 0.774);
+}
+
+.load {
+
+    height: 50px;
+    width: 300px;
+    display: flex;
+    position: absolute;
+    left: 200px;
+    border-radius: 30px;
+    border: 3px solid black;
+    box-shadow: 0px 0px 30px grey;
+}
+
+#loading {
+
+    height: 50px;
+    width: 300px;
+    display: flex;
+    position: absolute;
+    left: 0px;
+    border-radius: 30px;
+    background-color: #b2d3a8;
+
+    animation: roll 8s linear infinite;
+}
+
+
+@keyframes roll {
+    0% {
+
+        width: 0px;
+    }
+
+    50% {
+
+        width: 200px;
+    }
+
+}

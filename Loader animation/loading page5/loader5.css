@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.loader {
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    padding: 1px;
+    /* border: 10px dotted grey; */
+    border-bottom: 10px dotted white;
+    animation: loading 3s ease infinite normal;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+        /* border:10px dotted black; */
+
+    }
+
+    100% {
+        transform:rotate(360deg);
+        border: 10px dotted rgba(86, 237, 16, 0.915);
+        /* border-top: 10px dotted red; */
+
+        /* border:10px dotted black; */
+    }
+}
